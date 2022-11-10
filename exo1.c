@@ -18,8 +18,8 @@ int main() {
                                                 quotient2.denominateur, 1);
     quotientFinalAddition.denominateur = addition(quotient1.numerateur, quotient2.numerateur,
                                                   quotient1.denominateur, quotient2.denominateur, 0);
-    printf("Le résultat de la multiplication est ");
+    printf("Le resultat de la multiplication est ");
     affichageNombreRationnel(quotientFinalMultiplication.numerateur, quotientFinalMultiplication.denominateur);
-    printf("Le résultat de l'addition est ");
+    printf("Le resultat de l'addition est ");
     affichageNombreRationnel(quotientFinalAddition.numerateur, quotientFinalAddition.denominateur);
 }

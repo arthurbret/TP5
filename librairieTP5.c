@@ -3,14 +3,14 @@
 
 int saisieNumerateur(){
     int numerateur;
-    printf("Saisir le numerateur : ");
+    printf("Saisir le numerateur :");
     scanf("%d", &numerateur);
     return numerateur;
 }
 
 int saisieDenominateur(){
     int denominateur;
-    printf("Saisir le denominateur : ");
+    printf("Saisir le denominateur :");
     scanf("%d", &denominateur);
     return denominateur;
 }
@@ -32,5 +32,5 @@ int addition(int num1, int num2, int denum1, int denum2, int numDenum){
 }
 
 void affichageNombreRationnel(int numerateur, int denominateur){
-    printf("%d/%d", numerateur, denominateur);
+    printf("%d/%d\n", numerateur, denominateur);
 }
