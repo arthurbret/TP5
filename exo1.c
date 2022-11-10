@@ -22,4 +22,5 @@ int main() {
     affichageNombreRationnel(quotientFinalMultiplication.numerateur, quotientFinalMultiplication.denominateur);
     printf("Le resultat de l'addition est ");
     affichageNombreRationnel(quotientFinalAddition.numerateur, quotientFinalAddition.denominateur);
+    return 0;
 }
