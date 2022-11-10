@@ -4,7 +4,7 @@
 int saisieNumerateur()
 {
     int numerateur;
-    printf("Saisir le numérateur : ");
+    printf("Saisir le numerateur : ");
     scanf("%d", &numerateur);
     return numerateur;
 }
@@ -12,7 +12,19 @@ int saisieNumerateur()
 int saisieDenominateur()
 {
     int denomnateur;
-    printf("Saisir le dénominateur : ");
+    printf("Saisir le denominateur : ");
     scanf("%d", &denomnateur);
     return denomnateur;
+}
+
+int multiplication(int valeur1, int valeur2)
+{
+    int valeurFinale;
+    valeurFinale = valeur1*valeur2;
+    return valeurFinale;
+}
+
+int additionNumerateur(int valeur1, int valeur2)
+{
+    int valeurFinale
 }

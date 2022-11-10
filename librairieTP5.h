@@ -7,6 +7,7 @@ struct nombreRationnel
 };
 int saisieNumerateur();
 int saisieDenominateur();
+int multiplication(int valeur1, int valeur2);
 
 
 #endif //TP5_LIBRAIRIETP5_H
