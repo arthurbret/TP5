@@ -4,12 +4,15 @@
 int main() {
     struct nombreRationnel quotient1;
     struct nombreRationnel quotient2;
-    struct nombreRationnel quotientFinal;
+    struct nombreRationnel quotientFinalMultiplication;
+    struct nombreRationnel quotientFinalAddition;
     printf("Premier nombre rationnel :\n");
     quotient1.numerateur = saisieNumerateur();
     quotient1.denominateur = saisieDenominateur();
     printf("Deuxieme nombre rationnel :\n");
     quotient2.numerateur = saisieNumerateur();
     quotient2.denominateur = saisieDenominateur();
-    quotientFinal.numerateur = multiplication(quotient1.numerateur, quotient2.numerateur);
+    quotientFinalMultiplication.numerateur = multiplication(quotient1.numerateur, quotient2.numerateur);
+    quotientFinalMultiplication.denominateur = multiplication(quotient1.denominateur, quotient2.denominateur);
+    quotientFinalAddition.numerateur = addition()
 }

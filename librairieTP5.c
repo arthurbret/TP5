@@ -9,10 +9,10 @@ int saisieNumerateur(){
 }
 
 int saisieDenominateur(){
-    int denomnateur;
+    int denominateur;
     printf("Saisir le denominateur : ");
-    scanf("%d", &denomnateur);
-    return denomnateur;
+    scanf("%d", &denominateur);
+    return denominateur;
 }
 
 int multiplication(int valeur1, int valeur2){
@@ -21,10 +21,10 @@ int multiplication(int valeur1, int valeur2){
     return valeurFinale;
 }
 
-int additionNumerateur(int valeur1, int valeur2, int num){
+int addition(int num1, int num2, int denum1, int denum2, int numDenum){
     int valeurFinale;
-    if (num) {
-
+    if (numDenum) {
+        valeurFinale = num1 * denum2 + num2 * denum1;
     }
 }
 
