@@ -3,5 +3,6 @@
 
 int main() {
     struct nombreRationnel quotient;
-    
+    quotient.numerateur = saisieNumerateur();
+    quotient.denominateur = saisieDenominateur();
 }
