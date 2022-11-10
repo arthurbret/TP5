@@ -14,10 +14,8 @@ int main() {
     quotient2.denominateur = saisieDenominateur();
     quotientFinalMultiplication.numerateur = multiplication(quotient1.numerateur, quotient2.numerateur);
     quotientFinalMultiplication.denominateur = multiplication(quotient1.denominateur, quotient2.denominateur);
-    quotientFinalAddition.numerateur = addition(quotient1.numerateur, quotient2.numerateur, quotient1.denominateur,
-                                                quotient2.denominateur, 1);
-    quotientFinalAddition.denominateur = addition(quotient1.numerateur, quotient2.numerateur,
-                                                  quotient1.denominateur, quotient2.denominateur, 0);
+    quotientFinalAddition.numerateur = addition(quotient1.numerateur, quotient2.numerateur, quotient1.denominateur,quotient2.denominateur, 1);
+    quotientFinalAddition.denominateur = addition(quotient1.numerateur, quotient2.numerateur,quotient1.denominateur, quotient2.denominateur, 0);
     printf("Le resultat de la multiplication est ");
     affichageNombreRationnel(quotientFinalMultiplication.numerateur, quotientFinalMultiplication.denominateur);
     printf("Le resultat de l'addition est ");
