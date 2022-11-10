@@ -26,6 +26,9 @@ int addition(int num1, int num2, int denum1, int denum2, int numDenum){
     if (numDenum) {
         valeurFinale = num1 * denum2 + num2 * denum1;
     }
+    else{
+        valeurFinale = denum1 * denum2;
+    }
 }
 
 void affichageNombreRationnel(int numerateur, int denominateur){
