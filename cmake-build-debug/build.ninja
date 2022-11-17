@@ -41,43 +41,82 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/abret/CLionProjects/TP5/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target TP5
+# Object build statements for EXECUTABLE target TP5_exo1
 
 
 #############################################
-# Order-only phony target for TP5
+# Order-only phony target for TP5_exo1
 
-build cmake_object_order_depends_target_TP5: phony || CMakeFiles/TP5.dir
+build cmake_object_order_depends_target_TP5_exo1: phony || CMakeFiles/TP5_exo1.dir
 
-build CMakeFiles/TP5.dir/exo1.c.obj: C_COMPILER__TP5_Debug C$:/Users/abret/CLionProjects/TP5/exo1.c || cmake_object_order_depends_target_TP5
-  DEP_FILE = CMakeFiles\TP5.dir\exo1.c.obj.d
+build CMakeFiles/TP5_exo1.dir/librairieTP5.c.obj: C_COMPILER__TP5_exo1_Debug C$:/Users/abret/CLionProjects/TP5/librairieTP5.c || cmake_object_order_depends_target_TP5_exo1
+  DEP_FILE = CMakeFiles\TP5_exo1.dir\librairieTP5.c.obj.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\TP5.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP5.dir
+  OBJECT_DIR = CMakeFiles\TP5_exo1.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP5_exo1.dir
 
-build CMakeFiles/TP5.dir/librairieTP5.c.obj: C_COMPILER__TP5_Debug C$:/Users/abret/CLionProjects/TP5/librairieTP5.c || cmake_object_order_depends_target_TP5
-  DEP_FILE = CMakeFiles\TP5.dir\librairieTP5.c.obj.d
+build CMakeFiles/TP5_exo1.dir/TP5_exo1.c.obj: C_COMPILER__TP5_exo1_Debug C$:/Users/abret/CLionProjects/TP5/TP5_exo1.c || cmake_object_order_depends_target_TP5_exo1
+  DEP_FILE = CMakeFiles\TP5_exo1.dir\TP5_exo1.c.obj.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\TP5.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP5.dir
+  OBJECT_DIR = CMakeFiles\TP5_exo1.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP5_exo1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target TP5
+# Link build statements for EXECUTABLE target TP5_exo1
 
 
 #############################################
-# Link the executable TP5.exe
+# Link the executable TP5_exo1.exe
 
-build TP5.exe: C_EXECUTABLE_LINKER__TP5_Debug CMakeFiles/TP5.dir/exo1.c.obj CMakeFiles/TP5.dir/librairieTP5.c.obj
+build TP5_exo1.exe: C_EXECUTABLE_LINKER__TP5_exo1_Debug CMakeFiles/TP5_exo1.dir/librairieTP5.c.obj CMakeFiles/TP5_exo1.dir/TP5_exo1.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\TP5.dir
+  OBJECT_DIR = CMakeFiles\TP5_exo1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = TP5.exe
-  TARGET_IMPLIB = libTP5.dll.a
-  TARGET_PDB = TP5.exe.dbg
+  TARGET_FILE = TP5_exo1.exe
+  TARGET_IMPLIB = libTP5_exo1.dll.a
+  TARGET_PDB = TP5_exo1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TP5_exo2
+
+
+#############################################
+# Order-only phony target for TP5_exo2
+
+build cmake_object_order_depends_target_TP5_exo2: phony || CMakeFiles/TP5_exo2.dir
+
+build CMakeFiles/TP5_exo2.dir/librairieTP5.c.obj: C_COMPILER__TP5_exo2_Debug C$:/Users/abret/CLionProjects/TP5/librairieTP5.c || cmake_object_order_depends_target_TP5_exo2
+  DEP_FILE = CMakeFiles\TP5_exo2.dir\librairieTP5.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\TP5_exo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP5_exo2.dir
+
+build CMakeFiles/TP5_exo2.dir/TP5_exo2.c.obj: C_COMPILER__TP5_exo2_Debug C$:/Users/abret/CLionProjects/TP5/TP5_exo2.c || cmake_object_order_depends_target_TP5_exo2
+  DEP_FILE = CMakeFiles\TP5_exo2.dir\TP5_exo2.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\TP5_exo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP5_exo2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TP5_exo2
+
+
+#############################################
+# Link the executable TP5_exo2.exe
+
+build TP5_exo2.exe: C_EXECUTABLE_LINKER__TP5_exo2_Debug CMakeFiles/TP5_exo2.dir/librairieTP5.c.obj CMakeFiles/TP5_exo2.dir/TP5_exo2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TP5_exo2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TP5_exo2.exe
+  TARGET_IMPLIB = libTP5_exo2.dll.a
+  TARGET_PDB = TP5_exo2.exe.dbg
 
 
 #############################################
@@ -105,7 +144,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build TP5: phony TP5.exe
+build TP5_exo1: phony TP5_exo1.exe
+
+build TP5_exo2: phony TP5_exo2.exe
 
 # =============================================================================
 # Folder targets.
@@ -115,7 +156,7 @@ build TP5: phony TP5.exe
 #############################################
 # Folder: C:/Users/abret/CLionProjects/TP5/cmake-build-debug
 
-build all: phony TP5.exe
+build all: phony TP5_exo1.exe TP5_exo2.exe
 
 # =============================================================================
 # Built-in targets
