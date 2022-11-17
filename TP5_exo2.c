@@ -7,7 +7,7 @@ int main(){
     scanf("%d", &nbValeurs);
     int tableau[nbValeurs];
     for (int i = 0; i < nbValeurs; ++i) {
-        printf("Saisir la valeur numero %d : ", i+1);
+        printf("Saisir la valeur numero %d :", i+1);
         scanf("%d", &tableau[i]);
     }
 
