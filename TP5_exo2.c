@@ -11,9 +11,9 @@ int main(){
         scanf("%d", &tableau[i]);
     }
     for (int i = 1; i < (nbValeurs-1); ++i) {
-        tableau[i+1] > tableau[i] ? valeurLaPlusGrande = tableau[i+1] : valeurLaPlusGrande = tableau[i];
+        if (tableau[i+1] > tableau[i]) valeurLaPlusGrande = tableau[i+1];
+        else valeurLaPlusGrande = tableau[i];
     }
-
-
+    printf("La valeur la plus grande est %d", valeurLaPlusGrande);
     return 0;
 }
