@@ -10,9 +10,11 @@ int main(){
         printf("Saisir la valeur numero %d :", i+1);
         scanf("%d", &tableau[i]);
     }
-    for (int i = 1; i < (nbValeurs-1); ++i) {
-        if (tableau[i+1] > tableau[i]) valeurLaPlusGrande = tableau[i+1];
-        else valeurLaPlusGrande = tableau[i];
+    valeurLaPlusGrande = tableau[0];
+    for (int i = 0; i < nbValeurs; ++i) {
+        if(valeurLaPlusGrande < tableau[i]){
+            valeurLaPlusGrande = tableau[i];
+        }
     }
     printf("La valeur la plus grande est %d", valeurLaPlusGrande);
     return 0;
